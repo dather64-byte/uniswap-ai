@@ -1,0 +1,33 @@
+{
+  "name": "uniswap-hay",
+  "version": "0.1.0",
+  "description": "AI skill for integrating HayCoin (HAY) — the first token ever deployed on Uniswap. Teaches safe handling of extreme ERC-20 edge cases: ultra-low supply, high unit price, fractional amounts, and thin liquidity.",
+  "skills": [
+    {
+      "name": "hay-token-integration",
+      "description": "Guide for fetching HAY price data, handling BigNumber math safely, executing HAY swaps via Trading API, and rendering extreme token prices without UI overflow.",
+      "path": "skills/hay-token-integration/SKILL.md",
+      "triggers": [
+        "0xfA3E941D1F6B7b10eD84A0C211bfA8aeE907965e",
+        "haycoin",
+        "HAY token",
+        "first uniswap token",
+        "extreme token price",
+        "high unit price token",
+        "low supply token"
+      ]
+    }
+  ],
+  "author": "community",
+  "license": "MIT",
+  "repository": "https://github.com/Uniswap/uniswap-ai",
+  "keywords": [
+    "uniswap",
+    "haycoin",
+    "HAY",
+    "erc20",
+    "edge-case",
+    "token-integration",
+    "defi"
+  ]
+}
